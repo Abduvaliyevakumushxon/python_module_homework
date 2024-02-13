@@ -1,5 +1,5 @@
 # Calculate the power of a number
-import math
+# Calculate the power of a number
 
 def calculate_power(base, exponent):
     """
@@ -12,3 +12,6 @@ def calculate_power(base, exponent):
     Returns:
         float: The result of raising the base to the exponent.
     """
+    a=pow(base,exponent)
+    return a
+print(calculate_power(2,5))
