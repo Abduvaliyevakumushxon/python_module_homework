@@ -1,5 +1,5 @@
 # Round a decimal number to the nearest integer
-from math import round 
+import math
 
 def round_to_nearest_integer(number):
     """
@@ -13,4 +13,4 @@ def round_to_nearest_integer(number):
     """
     a=round(number)
     return a
-print(round_to_nearest_integer(4.5))
+print(round_to_nearest_integer(3.7))
