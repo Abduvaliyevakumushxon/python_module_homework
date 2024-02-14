@@ -14,4 +14,4 @@ def calculate_logarithm(number, base):
     """
     a=log(number,base)
     return a
-print(calculate_logarithm(9,3))
+print(calculate_logarithm(100,10))
