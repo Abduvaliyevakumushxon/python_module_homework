@@ -1,5 +1,5 @@
 # Perform trigonometric calculations
-from math import sin,cos,tan
+from math import sin,cos,tan,radians
 
 def perform_trigonometric_calculations(angle):
     """
@@ -13,4 +13,4 @@ def perform_trigonometric_calculations(angle):
     """
     a=(sin(angle),cos(angle),tan(angle))
     return a
-print(perform_trigonometric_calculations((45)))
+print(perform_trigonometric_calculations(radians(45)))
